@@ -1,0 +1,42 @@
+﻿Build started 1/7/2013 10:55:19 AM.
+     1>Project "C:\Dell\Git\state-machine\StateManager\StateManager.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Dell\Git\state-machine\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\StateManager.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\boost\boost_1_52_0" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp State.cpp StateManager.cpp TestStateOne.cpp TestStateTwo.cpp
+         TestStateTwo.cpp
+         TestStateOne.cpp
+         StateManager.cpp
+         State.cpp
+         Main.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\StateManager.exe.embed.manifest.res" Debug\StateManager_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Dell\Git\state-machine\Debug\StateManager.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\StateManager.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Dell\Git\state-machine\Debug\StateManager.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Dell\Git\state-machine\Debug\StateManager.lib" /MACHINE:X86 Debug\StateManager.exe.embed.manifest.res
+         Debug\Main.obj
+         Debug\State.obj
+         Debug\StateManager.obj
+         Debug\TestStateOne.obj
+         Debug\TestStateTwo.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\StateManager.exe.embed.manifest" /manifest Debug\StateManager.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\StateManager.exe.embed.manifest.res" Debug\StateManager_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Dell\Git\state-machine\Debug\StateManager.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\StateManager.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Dell\Git\state-machine\Debug\StateManager.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Dell\Git\state-machine\Debug\StateManager.lib" /MACHINE:X86 Debug\StateManager.exe.embed.manifest.res
+         Debug\Main.obj
+         Debug\State.obj
+         Debug\StateManager.obj
+         Debug\TestStateOne.obj
+         Debug\TestStateTwo.obj
+         StateManager.vcxproj -> C:\Dell\Git\state-machine\Debug\StateManager.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\StateManager.unsuccessfulbuild".
+         Touching "Debug\StateManager.lastbuildstate".
+     1>Done Building Project "C:\Dell\Git\state-machine\StateManager\StateManager.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.14
