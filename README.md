@@ -1,6 +1,6 @@
 State Machine
 =============
 
-A simple scripting language framework that utilizes the [boost](http://www.boost.org/) library.
+A simple scripting language framework that utilizes the [boost](http://www.boost.org/ "Boost Library") library.
 
-For detailed documentation please visit [state machine](http://www.chadramos.net/code/article/state-machine).
+For detailed documentation please visit [state machine](http://www.chadramos.net/code/article/state-machine "Chad Ramos State Machine").
